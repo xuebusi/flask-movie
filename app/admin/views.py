@@ -96,3 +96,13 @@ def role_add():
 @admin.route("/role/list/")
 def role_list():
     return render_template("admin/role_list.html")
+
+
+@admin.route("/auth/add/")
+def auth_add():
+    return render_template("admin/auth_add.html")
+
+
+@admin.route("/auth/list/")
+def auth_list():
+    return render_template("admin/auth_list.html")
