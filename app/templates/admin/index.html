@@ -51,7 +51,6 @@
 </section>
 <!--内容-->
 {% endblock %}
-
 {% block js %}
 <script src="{{ url_for('static',filename='js/echarts.min.js') }}"></script>
 <script>
@@ -88,7 +87,7 @@
 <script>
     $(document).ready(function () {
        $("#g-1").addClass("active");//选中父菜单
-       $("#g-g-g").addClass("active");//选中子菜单
+       $("#g-1-1").addClass("active");//选中子菜单
     });
 </script>
 {% endblock %}
