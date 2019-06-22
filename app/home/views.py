@@ -51,7 +51,3 @@ def search():
 def play():
     return render_template("home/play.html")
 
-
-
-
-
