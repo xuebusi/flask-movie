@@ -1,43 +1,60 @@
-######################################################################
-# Build Tools
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
 
-.gradle
-/build/
-!gradle/wrapper/gradle-wrapper.jar
+# vim swap file
+*.swp
 
-target/
-!.mvn/wrapper/maven-wrapper.jar
+# sqlite database files
+*.db
+*.sqlite
 
-######################################################################
-# IDE
+# C extensions
+*.so
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-nbproject/private/
-build/*
-nbbuild/
+# Distribution / packaging
+.Python
+env/
+bin/
+build/
+develop-eggs/
 dist/
-nbdist/
-.nb-gradle/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
 
-######################################################################
-# Others
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+# *.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
 *.log
-*.xml.versionsBackup
+*.pot
 
-!*/build/*.java
-!*/build/*.html
-!*/build/*.xml
+# Sphinx documentation
+docs/_build/
